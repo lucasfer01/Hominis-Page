@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+
+.plancard {
+    background-color: var(--violet);
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    font-family: 'Public Sans', sans-serif;
+    padding: 1.5rem;
+    transition: all .2s;
+    position: relative;
+}
+
+.plancard--contracted {
+    height: 625px;
+}
+
+.plancard--descontracted {
+    height: auto;
+}
+
+.plancard__description {
+    font-size: .9rem;
+    opacity: .7;
+    text-align: left;
+}
+
+.plancard__benefits {
+    padding: 0 1rem 2rem 1rem;
+    height: 64%;
+    overflow-y: hidden;
+}
+
+.plancard:hover {
+    transform: scale(1.02);
+}
+
+.plancard__benefit {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1rem 0;
+    margin-bottom: .7rem;
+}
+
+.plancard__benefit > svg {
+    padding-right: 1rem;
+}
+
+.plancard__benefit > span {
+    text-align: start;
+    width: 90%;
+    align-self: flex-start;
+    line-height: initial;
+}
+
+.expand {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.popular {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-weight: bold;
+}

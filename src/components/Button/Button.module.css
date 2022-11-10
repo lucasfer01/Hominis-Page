@@ -1,0 +1,40 @@
+.button-s {
+    min-width: var(--width-small);
+    height: var(--height-small);
+    
+    font-size: var(--fontSize-small);
+
+    padding: var(--padding-small);
+
+    border-radius: 0;
+}
+
+.button-m {
+    min-width: var(--width-medium);
+    height: var(--height-medium);
+    
+    font-size: var(--fontSize-medium);
+
+    padding: var(--padding-medium);
+
+    border-radius: 0;
+}
+
+.button-l {
+    min-width: var(--width-large);
+    height: var(--height-large);
+    
+    font-size: var(--fontSize-large);
+
+    padding: var(--padding-large);
+
+    border-radius: 0;
+}
+
+.button--rounded {
+    border-radius: 30px;
+}
+
+.button--uppercase {
+    text-transform: uppercase;
+}
