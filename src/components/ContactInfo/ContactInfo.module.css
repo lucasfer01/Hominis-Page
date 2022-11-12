@@ -1,0 +1,20 @@
+.contactInfo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--violet);
+}
+
+.contactInfo__info {
+    margin: 0 0 1rem 0;
+}
+
+.contactInfo__info > div {
+    margin: .5rem 0;
+}
+
+.contactInfo__icons > img {
+    margin: 0 .5rem;
+}
