@@ -1,37 +1,35 @@
 import "./App.css";
 import { Button } from "./components/Button/Button";
+import { CallToAction } from "./components/CallToAction/CallToAction";
+import { ContactInfo } from "./components/ContactInfo/ContactInfo";
 import { Container } from "./components/Container/Container";
+import { ContactForm } from "./components/ContatcForm/ContactForm";
 import { Navbar } from "./components/Navbar/Navbar";
 import { PlanCard } from "./components/PlanCard/PlanCard";
-import { Title } from "./components/Title/Title";
-
-const mockedData = ['Consultas médicas sin cargo', 'Estudios y prácticas de diagnóstico y tratamientos sin cargo.', 'Servicio de internación clínica, quirúrgica y terapia intensiva sin cargo en clínicas y sanatorios incluidos en nuestra red de prestadores.', '40 sesiones por año sin cargo de fisiokinesioterapia y fonoaudiología.', '30 sesiones por año de consultas psiquiátricas y psicológicas con copago y 30 días sin cargo de internaciones psiquiátricas agudas.', 'Consultas, odontología general y urgencias sin cargo.', 'Descuento en farmacias. Entre 40% y 100% según PMOE.', 'Internacion en habitación individual en sanatorio güemes', 'Asistencia la viajero nacional e internacional', '1 anteojo por año por persona', 'Pension por acompañante sin cargo en sanatorio güemes en maternidad', 'Reintegro de hasta $3000 en perno y corona', 'Hasta 5 sesiones con medicación por persona en tratmiento escleorosante'];
-
-const mockedData01 = [`Consultas médicas con copago. 
-Consultas médicas en domicilio con copago. 
-Servicios exclusivo de urgencias y emergencias.`, 'Estudios y prácticas de diagnóstico y tratamientos con copago.', 'Servicio de internación clínica, quirúrgica y terapia intensiva sin cargo en Sanatorio Güemes.', '30 sesiones por año de consultas psiquiátricas y psicológicas con copago y 30 días sin cargo de internaciones psiquiátricas agudas.', 'Consultas, odontología general y urgencias con copago.', 'Descuento en farmacias. Entre 40% y 100% según PMOE.']
+import { PlansCardContainer } from "./components/PlansCardContainer/PlansCardContainer";
 
 function App() {
   return (
     <div className="App">
       <Navbar>
-        <Button rounded className="nav-button">
-          HOME
-        </Button>
-        <Button rounded className="nav-button">
+        <Button rounded className="nav-button" onClick={() => window.scrollTo(0, 400)}>
           QUIENES SOMOS
         </Button>
-        <Button rounded className="nav-button">
+        <Button rounded className="nav-button" onClick={() => window.scrollTo(0, 1150)}>
           PLANES
         </Button>
-        <Button rounded className="nav-button">
-          MEDIOS DE PAGO
-        </Button>
-        <Button rounded className="nav-button">
+        <Button rounded className="nav-button" onClick={() => window.scrollTo(0, document.body.scrollHeight)}>
           CONTACTO
         </Button>
       </Navbar>
-      <header className="header"></header>
+
+      <header className="header">
+        <CallToAction
+          title={"Comenzá tu cobertura"}
+          onClick={() => window.scrollTo(0, document.body.scrollHeight)}
+          btnTitle={"Asociate"}
+        />
+      </header>
 
       <Container
         img={
@@ -68,30 +66,19 @@ function App() {
         principales planes.
       </Container>
 
+      <PlansCardContainer />
+
       <div
         style={{
-          width: "100%",
+          backgroundColor: "var(--gray)",
+          padding: "4rem",
           display: "flex",
-          justifyContent: "space-evenly",
-          alignItems: "flex-start",
-          padding: '3rem'
+          justifyContent: "center",
         }}
       >
-        <PlanCard 
-          title="SG 01"
-          description="Plan exclusivo para uso en el Sanatorio Güemes"
-          benefits={mockedData01}/>
+        <ContactForm />
 
-        <PlanCard 
-          title="H 3.0"
-          description="Todos los sanatorios de la carta disponibles"
-          benefits={mockedData}
-          popular/>
-
-        <PlanCard 
-          title="SG 02"
-          description="Plan exclusivo para uso en el Sanatorio Güemes"
-          benefits={mockedData01}/>
+        <ContactInfo />
       </div>
     </div>
   );
