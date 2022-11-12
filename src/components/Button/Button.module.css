@@ -5,8 +5,6 @@
     font-size: var(--fontSize-small);
 
     padding: var(--padding-small);
-
-    border-radius: 0;
 }
 
 .button-m {
@@ -16,8 +14,6 @@
     font-size: var(--fontSize-medium);
 
     padding: var(--padding-medium);
-
-    border-radius: 0;
 }
 
 .button-l {
@@ -27,8 +23,14 @@
     font-size: var(--fontSize-large);
 
     padding: var(--padding-large);
+}
 
+.button-l, .button-m, .button-s {
     border-radius: 0;
+}
+
+.button-l:focus, .button-m:focus, .button-s:focus {
+    outline: none;
 }
 
 .button--rounded {
