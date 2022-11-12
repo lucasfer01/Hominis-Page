@@ -1,0 +1,51 @@
+.contactForm {
+  width: 500px;
+  padding: 3rem;
+  /* background-color: coral; */
+  background-color: var(--white);
+}
+
+.contactForm__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactForm__form__input > label {
+  color: var(--black);
+}
+
+.contactForm__form__input {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.5rem 0;
+}
+
+.contactForm__form__input > input,
+.contactForm__form__input > textarea,
+.contactForm__form__input > select {
+  width: 100%;
+  height: 1.8rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.contactForm__form__input > textarea {
+  height: 5rem;
+  resize: none;
+}
+
+.contactForm__form__input > input:focus,
+.contactForm__form__input > select:focus,
+.contactForm__form__input > textarea:focus {
+  outline: none;
+}
+
+.contactForm__form__input::placeholder {
+}
+
+.contactForm__form__input > span {
+  color: red;
+}
