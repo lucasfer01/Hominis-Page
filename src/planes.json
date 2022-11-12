@@ -1,0 +1,20 @@
+[
+    {
+        "name": "SG 01",
+        "description": "Plan exclusivo para uso en el Sanatorio Güemes",
+        "benefits": ["Consultas médicas con copago. Consultas médicas en domicilio con copago. Servicios exclusivo de urgencias y emergencias.", "Estudios y prácticas de diagnóstico y tratamientos con copago.", "Servicio de internación clínica, quirúrgica y terapia intensiva sin cargo en Sanatorio Güemes.", "30 sesiones por año de consultas psiquiátricas y psicológicas con copago y 30 días sin cargo de internaciones psiquiátricas agudas.", "Consultas, odontología general y urgencias con copago.", "Descuento en farmacias. Entre 40% y 100% según PMOE."],
+        "popular": false
+    },
+    {
+        "name": "H 3.0",
+        "description": "Todos los sanatorios de la carta disponibles",
+        "benefits": ["Consultas médicas sin cargo", "Estudios y prácticas de diagnóstico y tratamientos sin cargo.", "Servicio de internación clínica, quirúrgica y terapia intensiva sin cargo en clínicas y sanatorios incluidos en nuestra red de prestadores.", "40 sesiones por año sin cargo de fisiokinesioterapia y fonoaudiología.", "30 sesiones por año de consultas psiquiátricas y psicológicas con copago y 30 días sin cargo de internaciones psiquiátricas agudas.", "Consultas, odontología general y urgencias sin cargo.", "Descuento en farmacias. Entre 40% y 100% según PMOE.", "Internacion en habitación individual en sanatorio güemes", "Asistencia la viajero nacional e internacional", "1 anteojo por año por persona", "Pension por acompañante sin cargo en sanatorio güemes en maternidad", "Reintegro de hasta $3000 en perno y corona", "Hasta 5 sesiones con medicación por persona en tratmiento escleorosante"],
+        "popular": true
+    },
+    {
+        "name": "SG 02",
+        "description": "Plan exclusivo para uso en el Sanatorio Güemes",
+        "benefits": ["Consultas médicas con copago. Consultas médicas en domicilio con copago. Servicios exclusivo de urgencias y emergencias.", "Estudios y prácticas de diagnóstico y tratamientos con copago.", "Servicio de internación clínica, quirúrgica y terapia intensiva sin cargo en Sanatorio Güemes.", "30 sesiones por año de consultas psiquiátricas y psicológicas con copago y 30 días sin cargo de internaciones psiquiátricas agudas.", "Consultas, odontología general y urgencias con copago.", "Descuento en farmacias. Entre 40% y 100% según PMOE."],
+        "popular": false
+    }
+]
