@@ -1,0 +1,17 @@
+.callToAction {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10rem;
+}
+
+.callToAction__title {
+    font-size: 2rem;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+.callToAction__button {
+    width: 90%;
+}
