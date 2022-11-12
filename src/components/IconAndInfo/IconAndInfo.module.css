@@ -1,0 +1,8 @@
+.iconAndInfo {
+    display: flex;
+    align-items: center;
+}
+
+.iconAndInfo > svg {
+    padding-right: 1rem;
+}
