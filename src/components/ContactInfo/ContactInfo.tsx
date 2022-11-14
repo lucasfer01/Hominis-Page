@@ -9,7 +9,7 @@ export const ContactInfo = () => {
   return (
     <div className={moduleStyle.contactInfo}>
       <div className={moduleStyle.contactInfo__info}>
-        <IconAndInfo Icon={AiOutlinePhone} info={"+54 9 1165777743"} link="https://wa.me/+5491139081168" />
+        <IconAndInfo Icon={AiOutlinePhone} info={"+54 9 1139081168"} link="https://wa.me/+5491139081168" />
 
         <IconAndInfo
           Icon={AiOutlineMail}
