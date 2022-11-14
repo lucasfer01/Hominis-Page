@@ -3,6 +3,9 @@ import * as Yup from "yup";
 import { Button } from "../Button/Button";
 import { Title } from "../Title/Title";
 import moduleStyle from "./ContactForm.module.css";
+import { onSubmit } from "./utils";
+
+
 
 export const ContactForm = () => {
   return (
@@ -18,7 +21,7 @@ export const ContactForm = () => {
           plan: "",
           message: "",
         }}
-        onSubmit={(values, actions) => {console.log(values); actions.resetForm();}}
+        onSubmit={onSubmit}
         validationSchema={Yup.object({
           name: Yup.string()
             .min(3, "El campo debe tener un minimo de 3 caracteres")
