@@ -18,3 +18,13 @@
 .nav-links {
     padding-right: 2rem;
 }
+
+@media screen and (max-width: 570px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-logo {
+        width: 35vw;
+    }
+}
