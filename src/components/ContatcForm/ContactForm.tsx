@@ -87,7 +87,7 @@ export const ContactForm = () => {
               <ErrorMessage name="message" component="span" />
             </div>
 
-            <Button style={{width: '20%', marginTop: '1.5rem'}} bgColor="var(--violet)">Enviar</Button>
+            <Button style={{width: '100px', marginTop: '1.5rem'}} bgColor="var(--violet)">Enviar</Button>
           </Form>
         )}
       </Formik>

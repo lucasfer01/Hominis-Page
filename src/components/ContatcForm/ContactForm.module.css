@@ -30,6 +30,7 @@
   height: 1.8rem;
   border: none;
   border-bottom: 1px solid #ccc;
+  background-color: var(--white);
 }
 
 .contactForm__form__input > textarea {
@@ -48,4 +49,11 @@
 
 .contactForm__form__input > span {
   color: red;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contactForm {
+    width: 85%;
+  }
 }
