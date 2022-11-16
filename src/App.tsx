@@ -69,12 +69,7 @@ function App() {
       <PlansCardContainer />
 
       <div
-        style={{
-          backgroundColor: "var(--gray)",
-          padding: "4rem",
-          display: "flex",
-          justifyContent: "center",
-        }}
+        className={'form'}
       >
         <ContactForm />
 
