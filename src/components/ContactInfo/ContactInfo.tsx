@@ -1,4 +1,4 @@
-import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
+import { AiOutlinePhone, AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 import { BsPersonCircle } from "react-icons/bs";
 import { SocialMediaIcon } from "../SocialMediaIcon/SocialMediaIcon";
 import { IconAndInfo } from "../IconAndInfo/IconAndInfo";
@@ -9,7 +9,7 @@ export const ContactInfo = () => {
   return (
     <div className={moduleStyle.contactInfo}>
       <div className={moduleStyle.contactInfo__info}>
-        <IconAndInfo Icon={AiOutlinePhone} info={"+54 9 1139081168"} link="https://wa.me/+5491139081168" />
+        <IconAndInfo Icon={AiOutlineWhatsApp} info={"+54 9 1139081168"} link="https://wa.me/+5491139081168" />
 
         <IconAndInfo
           Icon={AiOutlineMail}
