@@ -71,3 +71,9 @@
     right: 15px;
     font-weight: bold;
 }
+
+/* @media screen and (max-width: 470px) {
+    .plancard {
+        width: 90%;
+    }
+} */
