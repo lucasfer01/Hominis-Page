@@ -60,6 +60,7 @@ export const PlanCard = ({
         bgColor="#fff"
         fontColor="var(--violet)"
         style={{ width: "100%", borderRadius: "10px" }}
+        onClick={() => window.scrollTo(0, document.body.scrollHeight - 50)}
       >
         Comenzar
       </Button>
